@@ -1,4 +1,5 @@
-[![](https://jitpack.io/v/sharafas-om/OMSUtill.svg)](vertion)
+[![version tag](https://jitpack.io/v/sharafas-om/OMSUtill.svg)](https://jitpack.io/#sharafas-om/OMSUtill)
+
 **Install**
 
     dependencies {
