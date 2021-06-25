@@ -27,7 +27,7 @@
 	```
 
 ------------
-### 3.  CustomStatusBar
+### 3.  LoaderView
 ```xml
 <com.oms.utill.loading.LoaderView 
     style="@style/LoaderView.Large.ThreeBounce"
