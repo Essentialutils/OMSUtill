@@ -18,7 +18,7 @@ public class DrawableClickEditText extends androidx.appcompat.widget.AppCompatEd
 
     int actionX, actionY;
 
-    private Listener clickListener;
+    private Listener.DrawableClick clickListener;
 
     public DrawableClickEditText (Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -65,13 +65,13 @@ public class DrawableClickEditText extends androidx.appcompat.widget.AppCompatEd
             actionY = (int) event.getY();
             if (drawableBottom != null
                     && drawableBottom.getBounds().contains(actionX, actionY)) {
-                clickListener.onClick(Listener.DrawablePosition.BOTTOM);
+                clickListener.onClick(Listener.DrawableClick.DrawablePosition.BOTTOM);
                 return super.onTouchEvent(event);
             }
 
             if (drawableTop != null
                     && drawableTop.getBounds().contains(actionX, actionY)) {
-                clickListener.onClick(Listener.DrawablePosition.TOP);
+                clickListener.onClick(Listener.DrawableClick.DrawablePosition.TOP);
                 return super.onTouchEvent(event);
             }
 
@@ -101,7 +101,7 @@ public class DrawableClickEditText extends androidx.appcompat.widget.AppCompatEd
 
                 if (bounds.contains(x, y) && clickListener != null) {
                     clickListener
-                            .onClick(Listener.DrawablePosition.LEFT);
+                            .onClick(Listener.DrawableClick.DrawablePosition.LEFT);
                     event.setAction(MotionEvent.ACTION_CANCEL);
                     return false;
 
@@ -126,7 +126,7 @@ public class DrawableClickEditText extends androidx.appcompat.widget.AppCompatEd
 
                 if (bounds.contains(x, y) && clickListener != null) {
                     clickListener
-                            .onClick(Listener.DrawablePosition.RIGHT);
+                            .onClick(Listener.DrawableClick.DrawablePosition.RIGHT);
                     event.setAction(MotionEvent.ACTION_CANCEL);
                     return false;
                 }
@@ -146,7 +146,7 @@ public class DrawableClickEditText extends androidx.appcompat.widget.AppCompatEd
         super.finalize();
     }
 
-    public void setDrawableClickListener(Listener listener) {
+    public void setDrawableClickListener(Listener.DrawableClick listener) {
         this.clickListener = listener;
     }
 
