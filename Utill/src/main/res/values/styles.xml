@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="LoaderView">
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+    </style>
+
+    <style name="LoaderView.ChasingDots">
+        <item name="Loader_Style">ChasingDots</item>
+    </style>
+
+    <style name="LoaderView.Circle">
+        <item name="Loader_Style">Circle</item>
+    </style>
+
+    <style name="LoaderView.CubeGrid">
+        <item name="Loader_Style">CubeGrid</item>
+    </style>
+
+    <style name="LoaderView.DoubleBounce">
+        <item name="Loader_Style">DoubleBounce</item>
+    </style>
+
+    <style name="LoaderView.FadingCircle">
+        <item name="Loader_Style">FadingCircle</item>
+    </style>
+
+    <style name="LoaderView.FoldingCube">
+        <item name="Loader_Style">FoldingCube</item>
+    </style>
+
+    <style name="LoaderView.Pulse">
+        <item name="Loader_Style">Pulse</item>
+    </style>
+
+    <style name="LoaderView.RotatingPlane">
+        <item name="Loader_Style">RotatingPlane</item>
+    </style>
+
+    <style name="LoaderView.RotatingCircle">
+        <item name="Loader_Style">RotatingCircle</item>
+    </style>
+
+    <style name="LoaderView.ThreeBounce">
+        <item name="Loader_Style">ThreeBounce</item>
+    </style>
+
+    <style name="LoaderView.WanderingCubes">
+        <item name="Loader_Style">WanderingCubes</item>
+    </style>
+
+    <style name="LoaderView.Wave">
+        <item name="Loader_Style">Wave</item>
+    </style>
+
+    <style name="LoaderView.MultiplePulse">
+        <item name="Loader_Style">MultiplePulse</item>
+    </style>
+
+    <style name="LoaderView.PulseRing">
+        <item name="Loader_Style">PulseRing</item>
+    </style>
+
+    <style name="LoaderView.MultiplePulseRing">
+        <item name="Loader_Style">MultiplePulseRing</item>
+    </style>
+
+    <style name="LoaderView.Large">
+        <item name="android:minWidth">76dip</item>
+        <item name="android:maxWidth">76dip</item>
+        <item name="android:minHeight">76dip</item>
+        <item name="android:maxHeight">76dip</item>
+    </style>
+
+    <style name="LoaderView.Large.ChasingDots">
+        <item name="Loader_Style">ChasingDots</item>
+    </style>
+
+    <style name="LoaderView.Large.Circle">
+        <item name="Loader_Style">Circle</item>
+    </style>
+
+    <style name="LoaderView.Large.CubeGrid">
+        <item name="Loader_Style">CubeGrid</item>
+    </style>
+
+    <style name="LoaderView.Large.DoubleBounce">
+        <item name="Loader_Style">DoubleBounce</item>
+    </style>
+
+    <style name="LoaderView.Large.FadingCircle">
+        <item name="Loader_Style">FadingCircle</item>
+    </style>
+
+    <style name="LoaderView.Large.FoldingCube">
+        <item name="Loader_Style">FoldingCube</item>
+    </style>
+
+    <style name="LoaderView.Large.Pulse">
+        <item name="Loader_Style">Pulse</item>
+    </style>
+
+    <style name="LoaderView.Large.RotatingPlane">
+        <item name="Loader_Style">RotatingPlane</item>
+    </style>
+
+    <style name="LoaderView.Large.RotatingCircle">
+        <item name="Loader_Style">RotatingCircle</item>
+    </style>
+
+    <style name="LoaderView.Large.ThreeBounce">
+        <item name="Loader_Style">ThreeBounce</item>
+    </style>
+
+    <style name="LoaderView.Large.WanderingCubes">
+        <item name="Loader_Style">WanderingCubes</item>
+    </style>
+
+    <style name="LoaderView.Large.Wave">
+        <item name="Loader_Style">Wave</item>
+    </style>
+
+    <style name="LoaderView.Large.MultiplePulse">
+        <item name="Loader_Style">MultiplePulse</item>
+    </style>
+
+    <style name="LoaderView.Large.PulseRing">
+        <item name="Loader_Style">PulseRing</item>
+    </style>
+
+    <style name="LoaderView.Large.MultiplePulseRing">
+        <item name="Loader_Style">MultiplePulseRing</item>
+    </style>
+
+    <style name="LoaderView.Small">
+        <item name="android:minWidth">16dip</item>
+        <item name="android:maxWidth">16dip</item>
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+    </style>
+
+    <style name="LoaderView.Small.ChasingDots">
+        <item name="Loader_Style">ChasingDots</item>
+    </style>
+
+    <style name="LoaderView.Small.Circle">
+        <item name="Loader_Style">Circle</item>
+    </style>
+
+    <style name="LoaderView.Small.CubeGrid">
+        <item name="Loader_Style">CubeGrid</item>
+    </style>
+
+    <style name="LoaderView.Small.DoubleBounce">
+        <item name="Loader_Style">DoubleBounce</item>
+    </style>
+
+    <style name="LoaderView.Small.FadingCircle">
+        <item name="Loader_Style">FadingCircle</item>
+    </style>
+
+    <style name="LoaderView.Small.FoldingCube">
+        <item name="Loader_Style">FoldingCube</item>
+    </style>
+
+    <style name="LoaderView.Small.Pulse">
+        <item name="Loader_Style">Pulse</item>
+    </style>
+
+    <style name="LoaderView.Small.RotatingPlane">
+        <item name="Loader_Style">RotatingPlane</item>
+    </style>
+
+    <style name="LoaderView.Small.RotatingCircle">
+        <item name="Loader_Style">RotatingCircle</item>
+    </style>
+
+    <style name="LoaderView.Small.ThreeBounce">
+        <item name="Loader_Style">ThreeBounce</item>
+    </style>
+
+    <style name="LoaderView.Small.WanderingCubes">
+        <item name="Loader_Style">WanderingCubes</item>
+    </style>
+
+    <style name="LoaderView.Small.Wave">
+        <item name="Loader_Style">Wave</item>
+    </style>
+
+    <style name="LoaderView.Small.MultiplePulse">
+        <item name="Loader_Style">MultiplePulse</item>
+    </style>
+
+    <style name="LoaderView.Small.PulseRing">
+        <item name="Loader_Style">PulseRing</item>
+    </style>
+
+    <style name="LoaderView.Small.MultiplePulseRing">
+        <item name="Loader_Style">MultiplePulseRing</item>
+    </style>
+</resources>

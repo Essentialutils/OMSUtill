@@ -12,7 +12,7 @@ import android.view.animation.DecelerateInterpolator;
 
 import com.oms.utill.R;
 
-public class CircularLoader extends View {
+public class CircularProgress extends View {
     private final float mStartAngle = -90;
     private final Paint mPaint;
     private final float mMaxSweepAngle = 360;
@@ -27,15 +27,15 @@ public class CircularLoader extends View {
     private int mProgressColor = getResources().getColor(R.color.colorPrimary);
     private int mTextColor = Color.BLACK;
 
-    public CircularLoader(Context context) {
+    public CircularProgress(Context context) {
         this(context, null);
     }
 
-    public CircularLoader(Context context, AttributeSet attrs) {
+    public CircularProgress(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public CircularLoader(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CircularProgress(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
     }
