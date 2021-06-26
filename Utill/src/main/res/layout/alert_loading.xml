@@ -1,0 +1,8 @@
+<com.oms.utill.loading.LoaderView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/LoaderView.Large.ThreeBounce"
+    android:id="@+id/loader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:Loader_Color="@color/colorPrimary" />
