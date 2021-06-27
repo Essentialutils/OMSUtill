@@ -48,12 +48,15 @@
 	- @style/LoaderView.Large
 	- @style/LoaderView.Small
 	- @style/LoaderView.Small.DoubleBounce 
+
 - ProgressBar
+
 	```java
 	ProgressBar progressBar = (ProgressBar)findViewById(R.id.progress);
 	Sprite doubleBounce = new DoubleBounce();
 	progressBar.setIndeterminateDrawable(doubleBounce);
 	```
+
 	- Sprite Styles
 		- RotatingPlane
 		- DoubleBounce
@@ -69,3 +72,43 @@
 		- RotatingCircle
 
 ------------
+
+[![](https://img.shields.io/badge/4-NotificationUtill-red)](https://github.com/sharafas-om/OMSUtill)
+
+- You may need to add the default notification channel to your app/res/values/strings.xml file
+```xml
+<resources>
+    <string translatable="false" name="oms_notification_channel_id">MyDefaultChannelID</string>
+    <string translatable="false" name="oms_notification_channel_name">MyDefaultChannelName</string>
+    <string translatable="false" name="oms_notification_channel_description">MyDefaultChannelDescription</string>
+</resources>
+```
+
+- Methods
+
+| Method | Description |
+|------------------------------------|--------------------------|
+| **NotificationUtill.build(context)** | Create a NotificationUtill object |
+| **setId(id)** | Set the identifier for the notification |
+| **setTitle(title)** | Set the notification title |
+| **setContent(content)** | Set the notification content |
+| **setImportance(importance)** | Handle the importance with NotificationUtill Importance |
+| **setLargeIcon(largeIcon)** | Set the large icon from a drawable or URL resource |
+| **largeCircularIcon()** | Make large icon circular |
+| **setSmallIcon(smallIcon)** | Set the small icon from a drawable resource |
+| **setPicture(picture)** | Set a picture from a drawable or URL resource |
+| **setChannelId(id)** | Set the notification channel id |
+| **setChannelName(name)** | Set the notification channel name |
+| **setChannelDescription(description)** | Set the notification channel description |
+| **setAutoCancel(autoCancel)** | Set the auto-cancel value |
+| **setAction(intent)** | Set the action for when user clicks the notification  |
+| **enableVibration(vibration)** | Enable or disable the vibration |
+| **setVibrationPattern(vibrationPattern)** | Set the vibration pattern |
+| **getNotificationBuilder()** | Return the native NotificationCompat.Builder object |
+| **show()** | Show the notification |
+| **cancel(context, id)** | Cancel the specified notification by id |
+| **cancelAll(context)** | Cancel all notifications |
+
+------------
+
+
