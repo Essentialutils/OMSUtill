@@ -111,4 +111,43 @@
 
 ------------
 
+[![](https://img.shields.io/badge/5-NotificationUtill-red)](https://github.com/sharafas-om/OMSUtill)
+
+
+```java
+AnimationUtils.with(Techniques.Tada)
+    .duration(700)
+    .repeat(5)
+    .playOn(findViewById(R.id.edit_area));
+```
+- Attension
+`Flash`, `Pulse`, `RubberBand`, `Shake`, `Swing`, `Wobble`, `Bounce`, `Tada`, `StandUp`, `Wave`
+
+- Special
+`Hinge`, `RollIn`, `RollOut`,`Landing`,`TakingOff`,`DropOut`
+
+- Bounce
+`BounceIn`, `BounceInDown`, `BounceInLeft`, `BounceInRight`, `BounceInUp`
+
+- Fade
+`FadeIn`, `FadeInUp`, `FadeInDown`, `FadeInLeft`, `FadeInRight`
+`FadeOut`, `FadeOutDown`, `FadeOutLeft`, `FadeOutRight`, `FadeOutUp`
+
+- Flip
+`FlipInX`, `FlipOutX`, `FlipOutY`
+
+- Rotate
+`RotateIn`, `RotateInDownLeft`, `RotateInDownRight`, `RotateInUpLeft`, `RotateInUpRight`
+`RotateOut`, `RotateOutDownLeft`, `RotateOutDownRight`, `RotateOutUpLeft`, `RotateOutUpRight`
+
+- Slide
+`SlideInLeft`, `SlideInRight`, `SlideInUp`, `SlideInDown`
+`SlideOutLeft`, `SlideOutRight`, `SlideOutUp`, `SlideOutDown`
+
+- Zoom
+`ZoomIn`, `ZoomInDown`, `ZoomInLeft`, `ZoomInRight`, `ZoomInUp`
+`ZoomOut`, `ZoomOutDown`, `ZoomOutLeft`, `ZoomOutRight`, `ZoomOutUp`
+
+------------
+
 
