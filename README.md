@@ -1,11 +1,11 @@
-![](https://jitpack.io/v/sharafas-om/OMSUtill.svg)
+[![](https://jitpack.io/v/sharafas-om/OMSUtill.svg)](https://github.com/sharafas-om/OMSUtill)
 
 #### **Install**
     implementation 'com.github.sharafas-om:OMSUtill:{version}'
 
 ------------
 
-![](https://img.shields.io/badge/1-CircularProgress-red)
+[![](https://img.shields.io/badge/1-CircularProgress-red)](https://github.com/sharafas-om/OMSUtill)
 ```xml
 <com.oms.utill.views.CircularProgress
 	android:id="@+id/download.progress"
@@ -19,7 +19,7 @@
 
 ------------
 
-![](https://img.shields.io/badge/2-CustomStatusBar-red)
+[![](https://img.shields.io/badge/2-CustomStatusBar-red)](https://github.com/sharafas-om/OMSUtill)
 
 - Call method you need after setContentView(), such as 
 	`CustomStatusBar.setColor(MainActivity.this, mColor);`
@@ -32,7 +32,7 @@
 
 ------------
 
-![](https://img.shields.io/badge/3-LoaderView-red)
+[![](https://img.shields.io/badge/3-LoaderView-red)](https://github.com/sharafas-om/OMSUtill)
 
 ```xml
 <com.oms.utill.loading.LoaderView 
