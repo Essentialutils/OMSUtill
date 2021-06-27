@@ -1,9 +1,10 @@
-[![version tag](https://jitpack.io/v/sharafas-om/OMSUtill.svg)](https://github.com/sharafas-om/OMSUtill)
+![](https://img.shields.io/github/release/sharafas-om/OMSUtill)
 #### **Install**
-    implementation 'com.github.sharafas-om:OMSUtill:{version tag}'
+    implementation 'com.github.sharafas-om:OMSUtill:{release}'
 
 ------------
- ### 1. CircularProgress
+
+![](https://img.shields.io/badge/1-CircularProgress-red)
 ```xml
 <com.oms.utill.views.CircularProgress
 	android:id="@+id/download.progress"
@@ -16,7 +17,9 @@
 - showProgressText(boolean show)
 
 ------------
-### 2.  CustomStatusBar
+
+![](https://img.shields.io/badge/2-CustomStatusBar-red)
+
 - Call method you need after setContentView(), such as 
 	`CustomStatusBar.setColor(MainActivity.this, mColor);`
 - If you use this util in a page which containing a DrawerLayout, you need add `android:fitsSystemWindows="true"` inside root layout
@@ -27,7 +30,9 @@
 	```
 
 ------------
-### 3.  LoaderView
+
+![](https://img.shields.io/badge/3-LoaderView-red)
+
 ```xml
 <com.oms.utill.loading.LoaderView 
     style="@style/LoaderView.Large.ThreeBounce"
@@ -48,10 +53,18 @@
 	Sprite doubleBounce = new DoubleBounce();
 	progressBar.setIndeterminateDrawable(doubleBounce);
 	```
+	- Sprite Styles
+		- RotatingPlane
+		- DoubleBounce
+		- Wave
+		- WanderingCubes
+		- Pulse
+		- ChasingDots
+		- ThreeBounce
+		- Circle
+		- CubeGrid
+		- FadingCircle
+		- FoldingCube
+		- RotatingCircle
+
 ------------
-
-
-
-
-
-
