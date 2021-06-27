@@ -1,3 +1,4 @@
 rootProject.name = "Utills"
 include ':app'
 include ':Utill'
+include ':NotificationUtill'

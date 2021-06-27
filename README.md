@@ -1,6 +1,7 @@
-![](https://img.shields.io/github/release/sharafas-om/OMSUtill)
+![](https://jitpack.io/v/sharafas-om/OMSUtill.svg)
+
 #### **Install**
-    implementation 'com.github.sharafas-om:OMSUtill:{release}'
+    implementation 'com.github.sharafas-om:OMSUtill:{version}'
 
 ------------
 
