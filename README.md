@@ -111,11 +111,11 @@
 
 ------------
 
-[![](https://img.shields.io/badge/5-AnimationUtils-red)](https://github.com/sharafas-om/OMSUtill)
+[![](https://img.shields.io/badge/5-AnimationUtil-red)](https://github.com/sharafas-om/OMSUtill)
 
 
 ```java
-AnimationUtils.with(Techniques.Tada)
+AnimationUtil.with(Techniques.Tada)
     .duration(700)
     .repeat(5)
     .playOn(findViewById(R.id.edit_area));
