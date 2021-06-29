@@ -22,5 +22,29 @@
         </attr>
         <attr name="Loader_Color" format="color" />
     </declare-styleable>
+    <declare-styleable name="CountryCodeSelect">
+        <attr name="ccs_defaultCode" format="integer" />
+        <attr name="ccs_textColor" format="color" />
+        <attr name="ccs_backgroundColor" format="color" />
+        <attr name="ccs_textSize" format="dimension" />
+        <attr name="ccs_textFont" format="string" />
+        <attr name="ccs_arrowSize" format="dimension" />
+        <attr name="ccs_countryPreference" format="string" />
+        <attr name="ccs_defaultNameCode" format="string" />
+        <attr name="ccs_hideNameCode" format="boolean" />
+        <attr name="ccs_keyboardAutoPopOnSearch" format="boolean" />
+        <attr name="ccs_customMasterCountries" format="string" />
+        <attr name="ccs_showFlag" format="boolean" />
+        <attr name="ccs_showFullName" format="boolean" />
+        <attr name="ccs_selectionDialogShowSearch" format="boolean" />
+        <attr name="ccs_clickable" format="boolean" />
+        <attr name="ccs_hidePhoneCode" format="boolean" />
+        <attr name="ccs_enableHint" format="boolean" />
+        <attr name="ccs_enablePhoneAutoFormatter" format="boolean" />
+        <attr name="ccs_setCountryByTimeZone" format="boolean" />
+
+        <!--For dialog-->
+        <attr name="ccs_dialogTextColor" format="color" />
+    </declare-styleable>
 
 </resources>
