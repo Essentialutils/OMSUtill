@@ -40,11 +40,7 @@ public abstract class BaseViewAnimator {
         start();
     }
 
-    /**
-     * reset the view to default status
-     *
-     * @param target
-     */
+
     public void reset(View target) {
         ViewCompat.setAlpha(target, 1);
         ViewCompat.setScaleX(target, 1);
@@ -56,9 +52,7 @@ public abstract class BaseViewAnimator {
         ViewCompat.setRotationX(target, 0);
     }
 
-    /**
-     * start to animate
-     */
+
     public void start() {
         for (Animator animator : mAnimatorSet.getChildAnimations()) {
             if (animator instanceof ValueAnimator) {
