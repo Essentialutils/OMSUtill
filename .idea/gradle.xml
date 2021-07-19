@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AnimationUtils" />
             <option value="$PROJECT_DIR$/ChartUtils" />
+            <option value="$PROJECT_DIR$/CrashUtil" />
             <option value="$PROJECT_DIR$/Downloader" />
             <option value="$PROJECT_DIR$/GPSUtil" />
             <option value="$PROJECT_DIR$/NotificationUtill" />

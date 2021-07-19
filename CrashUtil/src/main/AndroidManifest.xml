@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oms.crashutil">
+
+    <application>
+        <activity
+            android:name="com.oms.crashutil.activity.DefaultErrorActivity"
+            android:process=":error_activity" />
+        <provider
+            android:name="com.oms.crashutil.provider.CrashUtilInitProvider"
+            android:authorities="${applicationId}.crashutilinitprovider"
+            android:exported="false"
+            android:initOrder="101" />
+    </application>
+</manifest>
