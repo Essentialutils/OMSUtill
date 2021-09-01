@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleChatView</string>
+
+    <string name="default_input_hint">Type message..</string>
+</resources>
